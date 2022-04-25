@@ -4,7 +4,8 @@ import random
 import discord
 from dotenv import load_dotenv
 
-load_dotenv()
+#load_dotenv()
+print(os.environ['DISCORD_TOKEN'])
 # print(os.getenv('DISCORD_TOKEN'))
 TOKEN = os.getenv("DISCORD_TOKEN")
 GUILD = os.getenv("DISCORD_GUILD")
